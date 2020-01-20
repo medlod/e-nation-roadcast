@@ -6,12 +6,12 @@ const prefix = "_";
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : EX Clan`);
+      console.log(`Desert Bot- Script By : bandgang`);
         console.log(`----------------`);
       console.log(`ON ${client.guilds.size} Servers '     Script By : BAND GANG ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`ARABIC RP l MTA SAN ANDREAS`)
+client.user.setGame(`E-nation Gta San Andreas`)
 client.user.setStatus("dnd")
 });
 
@@ -45,9 +45,9 @@ client.on("message", async message => {
                                         message.guild.members.forEach(member => {
                                             let bc = new Discord.RichEmbed()
                                             .setColor("#000000")
-                                            .setTitle("رسالة من طرف عربي رول بلاي  ")
+                                            .setTitle("رسالة من طرف إنايشن رول بلاي  ")
                                            
-                                            .setThumbnail("https://i.ibb.co/fSYkY4t/image0.png")                                                       
+                                            .setThumbnail("https://i.ibb.co/j6kVTdj/image0.jpg")                                                       
                                            
                                            .addField ("محتوى الرسالة ", args);
                                             
@@ -85,9 +85,9 @@ client.on("message", async message => {
                                             let bco = new Discord.RichEmbed()
                                             .setColor("RANDOM")
                                             .setThumbnail(message.author.avatarURL)
-                                            .setTitle("TwoM ADMIN MESSAGE ")
+                                            .setTitle("Tرسالة من طرف إنايشن رول بلاي  ")
                                             .addField("Server", message.guild.name)
-                                            .addField("Message", args);
+                                            .addField("محتوى الرسالة ", args);
 
                                             member.sendEmbed(bco);
                                         });
@@ -149,10 +149,12 @@ client.on("message", async message => {
             .setThumbnail(message.author.avatarURL)
             .setDescription(`**باند غانغ برودكاست بوت  
 
-            :الكومندات
-            دعوة البوت لسيرفرك Invite bot to your server : ${prefix}invite
-            يعرض لك عدد المتبندين من سيرفرك Banned from server : ${prefix}banned
-            رابط سيرفر الدعم الفني BAND GANG : https://discord.gg/CAv7GXa
+           :الكومندات
+            إرسال الرسالة للجميع : ${prefix}bc
+            مسح الشاط : ${prefix}clear
+            دعوة البوت لسيرفرك : ${prefix}invite
+            يعرض لك عدد المتبندين من سيرفرك  : ${prefix}banned
+            رابط سيرفر الدعم الفني BAND GANG : https://discord.gg/DHkvHfz
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
