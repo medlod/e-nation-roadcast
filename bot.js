@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : BAND GANG ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`E-nation Gta San Andreas`)
+client.user.setGame(`MAFIACITY RP I GTA SAN ANDREAS`)
 client.user.setStatus("dnd")
 });
 
