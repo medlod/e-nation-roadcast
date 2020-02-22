@@ -45,7 +45,7 @@ client.on("message", async message => {
                                         message.guild.members.forEach(member => {
                                             let bc = new Discord.RichEmbed()
                                             .setColor("#000000")
-                                            .setTitle("رسالة من طرف إنايشن رول بلاي  ")
+                                            .setTitle("رسالة من طرف مافيا سيتي")
                                            
                                             .setThumbnail("https://i.ibb.co/j6kVTdj/image0.jpg")                                                       
                                            
@@ -85,7 +85,7 @@ client.on("message", async message => {
                                             let bco = new Discord.RichEmbed()
                                             .setColor("RANDOM")
                                             .setThumbnail(message.author.avatarURL)
-                                            .setTitle("Tرسالة من طرف إنايشن رول بلاي  ")
+                                            .setTitle("رسالة من طرف مافيا سيتي  ")
                                             .addField("Server", message.guild.name)
                                             .addField("محتوى الرسالة ", args);
 
